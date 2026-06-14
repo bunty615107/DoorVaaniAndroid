@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">दूरवाणी</string>
+
+    <!-- Core / Navigation -->
+    <string name="settings_title">सेटिंग्स</string>
+    <string name="shield_of_sangam">संगम की ढाल</string>
+    <string name="knowledge_vault">ज्ञान कोष</string>
+    <string name="focus_modes">फोकस मोड</string>
+    <string name="design_system">डिज़ाइन सिस्टम</string>
+    <string name="app_info">ऐप</string>
+
+    <!-- Focus (Phase 1/2) -->
+    <string name="dharma_mode">धर्म मोड</string>
+    <string name="dharma_subtitle">सांसारिक विकर्षण रोकें</string>
+    <string name="vastu_dialing">वास्तु डायलिंग</string>
+    <string name="vastu_subtitle">संरेखित लेआउट</string>
+
+    <!-- Theme -->
+    <string name="doorvaani_light">दूरवाणी (प्रकाश)</string>
+    <string name="sangam_dark">संगम (अंधेरा)</string>
+
+    <!-- Phase 3: Cloud / Sync -->
+    <string name="cloud_sync">क्लाउड सिंक (E2EE ऑप्ट-इन)</string>
+    <string name="cloud_sync_desc">आपके वॉल्ट का जीरो-ट्रस्ट एन्क्रिप्टेड सिंक। सर्वर कभी भी प्लेनटेक्स्ट या कुंजियाँ नहीं देखता।</string>
+    <string name="sync_now">अभी सिंक करें</string>
+    <string name="last_sync">अंतिम सिंक</string>
+
+    <!-- Phase 3: Community Federation -->
+    <string name="community_federation">सामुदायिक शील्ड फेडरेशन</string>
+    <string name="community_federation_desc">अनाम स्पैम रिपोर्ट (E2EE) साझा करें ताकि संगम नेटवर्क सभी के लिए मजबूत हो।</string>
+    <string name="federation_status">संगम नेटवर्क: 12,450 रक्षक ऑनलाइन</string>
+    <string name="contribute_to_sangam">संगम में योगदान करें</string>
+
+    <!-- Phase 3: Premium AI -->
+    <string name="premium_ai">प्रीमियम AI अंतर्दृष्टि</string>
+    <string name="premium_ai_desc">आपकी संग्रहीत कॉलों के लिए ऑन-डिवाइस वैदिक + स्टोइक सारांश (भविष्य का निजी मॉडल)।</string>
+    <string name="generate_insight">इनसाइट जनरेट करें</string>
+    <string name="ai_insight_teaser">मुख्य विषय: उपस्थिति • सुझाव: “कॉल में शांति बनें।” (प्रीमियम स्टब)</string>
+
+    <!-- Shield (fidelity to goldens) -->
+    <string name="global_threat_level">वैश्विक खतरा स्तर</string>
+    <string name="enhanced_protection">उन्नत सुरक्षा</string>
+    <string name="enhanced_protection_desc">प्री-रिंग लुकअप + ऑन-डिवाइस क्लासिफायर</string>
+    <string name="recently_blocked">हाल ही में अवरुद्ध</string>
+    <string name="report_new_spam">नया स्पैम रिपोर्ट करें</string>
+    <string name="help_improve_sangam">संगम सुधारने में मदद करें</string>
+    <string name="help_improve_desc">फ़िल्टर से बच निकले नंबरों की रिपोर्ट करें ताकि सामुदायिक ढाल मजबूत हो।</string>
+    <string name="thirty_day_metrics">30-दिन के मेट्रिक्स</string>
+
+    <!-- Home / General -->
+    <string name="namaste">नमस्ते, अरविंद</string>
+    <string name="tagline">आपके संबंध उद्देश्य के साथ प्रवाहित हों।</string>
+    <string name="ready_to_connect">कनेक्ट करने के लिए तैयार?</string>
+    <string name="open_keypad">कीपैड खोलें</string>
+    <string name="weekly_flow">साप्ताहिक प्रवाह</string>
+    <string name="recent_channels">हाल के चैनल</string>
+    <string name="view_all">सभी देखें</string>
+    <string name="focus_settings">फोकस सेटिंग्स</string>
+
+    <!-- Phase markers (for notes) -->
+    <string name="phase_2_focus">चरण 2 • उन्नत फोकस सक्रिय (धर्म शांत + वास्तु संरेखण)</string>
+    <string name="phase_3_scale">चरण 3 • स्केल और पारिस्थितिकी (क्लाउड • फेडरेशन • AI)</string>
+
+    <!-- Vault / Archive (goldens fidelity) -->
+    <string name="archive_vault">पुरालेख कोष</string>
+    <string name="knowledge_preservation">ज्ञान संरक्षण और एन्क्रिप्टेड रिकॉर्ड।</string>
+    <string name="local_first_e2ee">स्थानीय-प्रथम AES-256 (कीस्टोर एन्क्लेव) • सख्त गोपनीयता • शून्य प्लेनटेक्स्ट</string>
+    <string name="search_recordings">रिकॉर्डिंग खोजें (नाम, फोन, या भविष्य ट्रांसक्रिप्ट)</string>
+    <string name="filter_all">सभी</string>
+    <string name="filter_internal">आंतरिक</string>
+    <string name="filter_external">बाहरी</string>
+    <string name="no_recordings">अभी कोई रिकॉर्डिंग नहीं। कॉल करें (डायल/कीपैड + समाप्त) से RecordingCoordinator के माध्यम से वॉल्ट पॉपुलेट करें।</string>
+    <string name="manual_backup">मैनुअल बैकअप</string>
+    <string name="encrypted_bundle">एन्क्रिप्टेड बंडल + मैनिफेस्ट</string>
+    <string name="initiate_backup">बैकअप शुरू करें</string>
+    <string name="restore">पुनर्स्थापना</string>
+    <string name="from_encrypted">एन्क्रिप्टेड आर्काइव मार्कर से</string>
+    <string name="select_marker">मार्कर चुनें</string>
+    <string name="vault_privacy_note">सभी वॉल्ट डेटा लोकल-फर्स्ट E2EE है। प्लेबैक और निर्यात के लिए प्रमाणीकरण आवश्यक। चरण 2: ऑन-डिवाइस ट्रांसक्रिप्शन + सिमेंटिक सर्च हुक तैयार।</string>
+    <string name="incoming">इनकमिंग</string>
+    <string name="outgoing">आउटगोइंग</string>
+    <string name="missed">मिस्ड</string>
+    <string name="secure">सुरक्षित</string>
+    <string name="standard">मानक</string>
+
+    <!-- Active Call (goldens: labels, status) -->
+    <string name="active_call">सक्रिय कॉल</string>
+    <string name="dialing">डायलिंग...</string>
+    <string name="ringing">रिंगिंग...</string>
+    <string name="on_hold">होल्ड पर</string>
+    <string name="connected">कनेक्टेड</string>
+    <string name="call_ended">कॉल समाप्त</string>
+    <string name="mute">म्यूट</string>
+    <string name="unmute">अनम्यूट</string>
+    <string name="speaker">स्पीकर</string>
+    <string name="earpiece">ईयरपीस</string>
+    <string name="bluetooth">ब्लूटूथ</string>
+    <string name="hold">होल्ड</string>
+    <string name="resume">रीज्यूम</string>
+    <string name="record">रिकॉर्ड</string>
+    <string name="stop">स्टॉप</string>
+    <string name="keypad">कीपैड</string>
+    <string name="add_call">कॉल जोड़ें</string>
+    <string name="merge">मर्ज</string>
+    <string name="end_call">कॉल समाप्त करें</string>
+
+    <!-- Dial Pad -->
+    <string name="add_to_contacts">संपर्क में जोड़ें</string>
+
+    <!-- Contacts -->
+    <string name="contacts_title">संपर्क</string>
+    <string name="contacts_subtitle">अपने आध्यात्मिक मार्गदर्शकों और समुदाय से जुड़ें।</string>
+    <string name="search_contacts">संपर्क खोजें...</string>
+    <string name="call">कॉल करें</string>
+    <string name="message">संदेश</string>
+
+    <!-- Incoming Call -->
+    <string name="incoming_call">आने वाली कॉल</string>
+    <string name="decline">अस्वीकार करें</string>
+    <string name="accept">स्वीकार करें</string>
+
+    <!-- Contact Detail -->
+    <string name="contact_info">संपर्क जानकारी</string>
+    <string name="mobile">मोबाइल</string>
+    <string name="call_stats">कॉल आंकड़े</string>
+    <string name="notes">नोट्स</string>
+    <string name="saved_mantra">सहेजा गया मंत्र</string>
+    <string name="video">वीडियो</string>
+    <string name="share">साझा करें</string>
+
+    <!-- Bottom Nav -->
+    <string name="recents">हाल की</string>
+
+    <!-- Journal Export (Phase 3) -->
+    <string name="journal_export">जर्नल निर्यात</string>
+    <string name="export_journal">जर्नल में निर्यात करें</string>
+    <string name="journal_desc">रिकॉर्डिंग, AI अंतर्दृष्टि और मंत्रों का टेक्स्ट बंडल बाहरी जर्नल ऐप्स के लिए।</string>
+
+    <!-- Vastu Calendar (Phase 3 real-ish) -->
+    <string name="vastu_suggestion_title">वास्तु संरेखण सुझाव</string>
+    <string name="add_to_calendar">कैलेंडर में जोड़ें</string>
+    <string name="calendar_stub_added">डिवाइस कैलेंडर खोलेगा सुझाए गए स्लॉट जोड़ने के लिए (स्टब - कोई अतिरिक्त अनुमतियाँ नहीं)।</string>
+    <string name="meaningful_connections_week">इस सप्ताह सार्थक कनेक्शन बनाए</string>
+    <string name="weekly_flow_insights">साप्ताहिक प्रवाह अंतर्दृष्टि</string>
+    <string name="call_button">कॉल</string>
+    <string name="backspace">बैकस्पेस</string>
+</resources>

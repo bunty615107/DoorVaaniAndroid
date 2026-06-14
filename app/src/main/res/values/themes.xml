@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme for the Activity (before Compose takes over) -->
+    <style name="Theme.DoorVaani" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Customize if needed -->
+    </style>
+</resources>

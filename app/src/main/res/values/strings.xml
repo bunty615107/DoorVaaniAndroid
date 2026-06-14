@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DoorVaani</string>
+
+    <!-- Core / Navigation -->
+    <string name="settings_title">Settings</string>
+    <string name="shield_of_sangam">Shield of Sangam</string>
+    <string name="knowledge_vault">Knowledge Vault</string>
+    <string name="focus_modes">Focus Modes</string>
+    <string name="design_system">Design System</string>
+    <string name="app_info">App</string>
+
+    <!-- Focus (Phase 1/2) -->
+    <string name="dharma_mode">Dharma Mode</string>
+    <string name="dharma_subtitle">Block earthly distractions</string>
+    <string name="vastu_dialing">Vastu Dialing</string>
+    <string name="vastu_subtitle">Aligned layouts</string>
+
+    <!-- Theme -->
+    <string name="doorvaani_light">DoorVaani (Light)</string>
+    <string name="sangam_dark">Sangam (Dark)</string>
+
+    <!-- Phase 3: Cloud / Sync -->
+    <string name="cloud_sync">Cloud Sync (E2EE opt-in)</string>
+    <string name="cloud_sync_desc">Zero-trust encrypted sync of your Vault across devices. Server never sees plaintext or keys.</string>
+    <string name="sync_now">Sync Now</string>
+    <string name="last_sync">Last sync</string>
+
+    <!-- Phase 3: Community Federation -->
+    <string name="community_federation">Community Shield Federation</string>
+    <string name="community_federation_desc">Share anonymized spam reports (E2EE) to strengthen the Sangam network for everyone.</string>
+    <string name="federation_status">Sangam Network: 12,450 protectors online</string>
+    <string name="contribute_to_sangam">Contribute to Sangam</string>
+
+    <!-- Phase 3: Premium AI -->
+    <string name="premium_ai">Premium AI Insights</string>
+    <string name="premium_ai_desc">On-device Vedic + Stoic summaries for your archived calls (future private model).</string>
+    <string name="generate_insight">Generate Insight</string>
+    <string name="ai_insight_teaser">Key theme: Presence • Suggested: “Be the calm in the call.” (Premium stub)</string>
+
+    <!-- Shield (fidelity to goldens) -->
+    <string name="global_threat_level">Global Threat Level</string>
+    <string name="enhanced_protection">Enhanced Protection</string>
+    <string name="enhanced_protection_desc">Pre-ring lookup + on-device classifier</string>
+    <string name="recently_blocked">Recently Blocked</string>
+    <string name="report_new_spam">Report New Spam</string>
+    <string name="help_improve_sangam">Help Improve Sangam</string>
+    <string name="help_improve_desc">Report numbers that bypassed our filters to strengthen the community shield.</string>
+    <string name="thirty_day_metrics">30-Day Metrics</string>
+
+    <!-- Home / General -->
+    <string name="namaste">Namaste, Aravind</string>
+    <string name="tagline">Your connections flow with purpose.</string>
+    <string name="ready_to_connect">Ready to connect?</string>
+    <string name="open_keypad">Open Keypad</string>
+    <string name="weekly_flow">Weekly Flow</string>
+    <string name="recent_channels">Recent Channels</string>
+    <string name="view_all">View All</string>
+    <string name="focus_settings">Focus Settings</string>
+
+    <!-- Phase markers (for notes) -->
+    <string name="phase_2_focus">Phase 2 • Advanced Focus active (Dharma quieting + Vastu alignment)</string>
+    <string name="phase_3_scale">Phase 3 • Scale &amp; Ecosystem (cloud • federation • AI)</string>
+
+    <!-- Vault / Archive (goldens fidelity) -->
+    <string name="archive_vault">Archive Vault</string>
+    <string name="knowledge_preservation">Knowledge preservation &amp; encrypted records.</string>
+    <string name="local_first_e2ee">Local-first AES-256 (Keystore enclave) • Strict privacy • Zero plaintext</string>
+    <string name="search_recordings">Search recordings (name, phone, or future transcript)</string>
+    <string name="filter_all">All</string>
+    <string name="filter_internal">Internal</string>
+    <string name="filter_external">External</string>
+    <string name="no_recordings">No recordings yet. Make calls (use Dial/Keypad + end) to populate vault via RecordingCoordinator.</string>
+    <string name="manual_backup">Manual Backup</string>
+    <string name="encrypted_bundle">Encrypted bundle + manifest</string>
+    <string name="initiate_backup">Initiate Backup</string>
+    <string name="restore">Restore</string>
+    <string name="from_encrypted">From encrypted archive marker</string>
+    <string name="select_marker">Select Marker</string>
+    <string name="vault_privacy_note">All vault data is local-first E2EE. Playback &amp; export require auth. Phase 2: on-device transcription + semantic search ready for hooks.</string>
+    <string name="incoming">Incoming</string>
+    <string name="outgoing">Outgoing</string>
+    <string name="missed">Missed</string>
+    <string name="secure">Secure</string>
+    <string name="standard">Standard</string>
+
+    <!-- Active Call (goldens: labels, status) -->
+    <string name="active_call">Active Call</string>
+    <string name="dialing">Dialing...</string>
+    <string name="ringing">Ringing...</string>
+    <string name="on_hold">On Hold</string>
+    <string name="connected">Connected</string>
+    <string name="call_ended">Call ended</string>
+    <string name="mute">MUTE</string>
+    <string name="unmute">UNMUTE</string>
+    <string name="speaker">SPEAKER</string>
+    <string name="earpiece">EARPIECE</string>
+    <string name="bluetooth">BLUETOOTH</string>
+    <string name="hold">HOLD</string>
+    <string name="resume">RESUME</string>
+    <string name="record">RECORD</string>
+    <string name="stop">STOP</string>
+    <string name="keypad">KEYPAD</string>
+    <string name="add_call">ADD CALL</string>
+    <string name="merge">MERGE</string>
+    <string name="end_call">End Call</string>
+
+    <!-- Dial Pad -->
+    <string name="add_to_contacts">Add to Contacts</string>
+
+    <!-- Contacts -->
+    <string name="contacts_title">Contacts</string>
+    <string name="contacts_subtitle">Connect with your spiritual guides and community.</string>
+    <string name="search_contacts">Search contacts...</string>
+    <string name="call">Call</string>
+    <string name="message">Message</string>
+
+    <!-- Incoming Call -->
+    <string name="incoming_call">Incoming Call</string>
+    <string name="decline">Decline</string>
+    <string name="accept">Accept</string>
+
+    <!-- Contact Detail -->
+    <string name="contact_info">Contact Info</string>
+    <string name="mobile">Mobile</string>
+    <string name="call_stats">Call Stats</string>
+    <string name="notes">Notes</string>
+    <string name="saved_mantra">Saved Mantra</string>
+    <string name="video">Video</string>
+    <string name="share">Share</string>
+
+    <!-- Bottom Nav -->
+    <string name="recents">Recents</string>
+
+    <!-- Journal Export (Phase 3) -->
+    <string name="journal_export">Journal Export</string>
+    <string name="export_journal">Export to Journal</string>
+    <string name="journal_desc">Text bundle of recordings, AI insights, and mantras for external journal apps.</string>
+
+    <!-- Vastu Calendar (Phase 3 real-ish) -->
+    <string name="vastu_suggestion_title">Vastu Alignment Suggestion</string>
+    <string name="add_to_calendar">Add to Calendar</string>
+    <string name="calendar_stub_added">Would open device calendar to add suggested slot (stub - no extra permissions).</string>
+    <string name="meaningful_connections_week">Meaningful connections made this week</string>
+    <string name="weekly_flow_insights">Weekly flow insights</string>
+    <string name="call_button">CALL</string>
+    <string name="backspace">Backspace</string>
+</resources>
