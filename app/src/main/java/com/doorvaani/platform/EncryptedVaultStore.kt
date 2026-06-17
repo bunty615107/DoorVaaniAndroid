@@ -83,6 +83,10 @@ object EncryptedVaultStore {
     fun saveEncryptedRecording(context: Context, recordId: String, stubContent: String = "DOORVAANI_STUB_ENCRYPTED_RECORDING"): String {
         val dir = getVaultDir(context)
         val file = File(dir, "$recordId.enc")
+        // Prevent Path Traversal
+        if (!file.canonicalPath.startsWith(dir.canonicalPath + File.separator)) {
+            throw SecurityException("Invalid record ID: potential path traversal")
+        }
         val plain = (stubContent + "\nID=$recordId\nTS=${System.currentTimeMillis()}").toByteArray(Charsets.UTF_8)
         val enc = encrypt(plain)
         file.writeBytes(enc)
@@ -97,17 +101,24 @@ object EncryptedVaultStore {
     fun saveEncryptedAudio(context: Context, recordId: String, audioFile: File): String {
         val dir = getVaultDir(context)
         val encFile = File(dir, "$recordId.enc")
+        // Prevent Path Traversal
+        if (!encFile.canonicalPath.startsWith(dir.canonicalPath + File.separator)) {
+            throw SecurityException("Invalid record ID: potential path traversal")
+        }
         return try {
             if (!audioFile.exists()) return saveEncryptedRecording(context, recordId)
             val plainBytes = audioFile.readBytes()
             val enc = encrypt(plainBytes)
             encFile.writeBytes(enc)
-            // Privacy: remove raw temp audio immediately
-            audioFile.delete()
             "vault/$recordId.enc"
         } catch (e: Exception) {
             // Fallback: at least don't lose the record
             saveEncryptedRecording(context, recordId, "AUDIO_ENCRYPT_FAILED:${e.message}")
+        } finally {
+            // Privacy: ALWAYS remove raw temp audio immediately, even if encryption fails
+            if (audioFile.exists()) {
+                audioFile.delete()
+            }
         }
     }
 
@@ -115,6 +126,10 @@ object EncryptedVaultStore {
     fun loadDecryptedRecording(context: Context, relativePath: String): String {
         return try {
             val file = File(context.filesDir, relativePath)
+            // Prevent Path Traversal
+            if (!file.canonicalPath.startsWith(context.filesDir.canonicalPath + File.separator)) {
+                return "[decrypt-failed: invalid path]"
+            }
             if (!file.exists()) return "[stub-missing]"
             val enc = file.readBytes()
             val plain = decrypt(enc)
