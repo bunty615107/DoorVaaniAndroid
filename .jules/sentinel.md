@@ -11,3 +11,7 @@
 **Prevention:**
 1. Use `try { ... } finally { file.delete() }` for all temporary files containing sensitive data.
 2. Validate resolved file paths by asserting that `file.canonicalPath.startsWith(baseDir.canonicalPath)` before proceeding with read/write operations.
+## 2023-10-27 - [URI Injection Prevention in Intents]
+**Vulnerability:** Unsanitized user inputs appended to `Uri.parse("tel:...")`.
+**Learning:** Raw input strings containing special characters like `#` can cause URI truncation or injection, as `#` is a fragment separator. This is particularly problematic for phone numbers that may include USSD codes or extensions.
+**Prevention:** Always use `Uri.encode()` when constructing URIs from untrusted or user-provided input, especially for intents like `ACTION_CALL`.
