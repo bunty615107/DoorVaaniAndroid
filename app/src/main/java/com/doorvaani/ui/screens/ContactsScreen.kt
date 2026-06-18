@@ -134,7 +134,7 @@ fun ContactsScreen(
                                 if (granted) {
                                     try {
                                         val intent = Intent(Intent.ACTION_CALL).apply {
-                                            data = Uri.parse("tel:${contact.phone}")
+                                            data = Uri.parse("tel:${Uri.encode(contact.phone)}")
                                         }
                                         context.startActivity(intent)
                                     } catch (_: Exception) {}

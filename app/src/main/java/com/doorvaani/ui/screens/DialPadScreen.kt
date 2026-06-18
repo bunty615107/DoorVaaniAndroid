@@ -150,7 +150,7 @@ fun DialPadScreen(
                                 if (granted) {
                                     try {
                                         val intent = Intent(Intent.ACTION_CALL).apply {
-                                            data = Uri.parse("tel:$currentNumber")
+                                            data = Uri.parse("tel:${Uri.encode(currentNumber)}")
                                         }
                                         context.startActivity(intent)
                                     } catch (_: Exception) {
