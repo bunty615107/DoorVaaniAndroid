@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoorVaani 🔔 - The Open Dialer & Doorbell Intercom</title>
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --text-color: #c9d1d9;
+            --accent-color: #f78166;
+            --card-bg: #161b22;
+            --border-color: #30363d;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            text-align: center;
+            padding: 4rem 2rem 2rem;
+            max-width: 800px;
+        }
+
+        h1 {
+            color: #ffffff;
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .tagline {
+            font-size: 1.25rem;
+            color: #8b949e;
+            margin-bottom: 2rem;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 3rem;
+        }
+
+        a.button {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        a.button.primary {
+            background-color: var(--accent-color);
+            color: #ffffff;
+            border: 1px solid var(--accent-color);
+        }
+
+        a.button.primary:hover {
+            background-color: #d16b53;
+            border-color: #d16b53;
+        }
+
+        a.button.secondary {
+            background-color: var(--card-bg);
+            color: var(--text-color);
+            border: 1px solid var(--border-color);
+        }
+
+        a.button.secondary:hover {
+            background-color: #21262d;
+            border-color: #8b949e;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            max-width: 1000px;
+            padding: 0 2rem 4rem;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .card h3 {
+            color: #ffffff;
+            margin-top: 0;
+            font-size: 1.25rem;
+        }
+
+        .card p {
+            margin-bottom: 0;
+            color: #8b949e;
+        }
+
+        footer {
+            padding: 2rem;
+            text-align: center;
+            color: #8b949e;
+            font-size: 0.875rem;
+            border-top: 1px solid var(--border-color);
+            width: 100%;
+        }
+
+        .emoji {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+            .buttons {
+                flex-direction: column;
+            }
+            a.button {
+                width: 100%;
+                box-sizing: border-box;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>DoorVaani 🔔</h1>
+        <p class="tagline">A beautiful, secure Kotlin Android doorbell intercom and dialer app.</p>
+
+        <div class="buttons">
+            <a href="https://github.com/bunty615107/DoorVaaniAndroid/releases" class="button primary">Download APK</a>
+            <a href="https://github.com/bunty615107/DoorVaaniAndroid" class="button secondary">View on GitHub</a>
+        </div>
+    </header>
+
+    <div class="features">
+        <div class="card">
+            <span class="emoji">🚨</span>
+            <h3>Doorbell Alerts</h3>
+            <p>Get instant notifications when someone is at your door, wherever you are in the house.</p>
+        </div>
+        <div class="card">
+            <span class="emoji">🎙️</span>
+            <h3>Intercom</h3>
+            <p>Communicate clearly with visitors via high-quality, simulated audio intercom features.</p>
+        </div>
+        <div class="card">
+            <span class="emoji">📱</span>
+            <h3>Contacts</h3>
+            <p>Easily manage and organize your contacts with an intuitive Vastu Dialing experience.</p>
+        </div>
+        <div class="card">
+            <span class="emoji">🔒</span>
+            <h3>Knowledge Vault</h3>
+            <p>Secure, local-first E2EE storage for your call records and insights.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 DoorVaani Project. Built with Kotlin and Jetpack Compose.</p>
+    </footer>
+
+</body>
+</html>
