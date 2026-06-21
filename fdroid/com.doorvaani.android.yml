@@ -7,13 +7,7 @@ Summary: Android doorbell and intercom app
 Description: |-
   DoorVaani is an open-source Android doorbell and intercom application built using Kotlin and Jetpack Compose.
   It provides advanced doorbell alert features to ensure you never miss a visitor.
-
-  Features include:
-  * Simulated full call experience with DialPad and Incoming views.
-  * Local-first End-to-End Encrypted Knowledge Vault.
-  * Advanced focus modes like Dharma Mode for UI quieting.
-  * Premium on-device AI insights.
-  * Community Shield and comprehensive contact management.
+  Community Shield and comprehensive contact management are also included to keep you safe and connected.
 RepoType: git
 Repo: https://github.com/bunty615107/DoorVaaniAndroid
 AutoUpdateMode: Version
